@@ -1,22 +1,22 @@
-# Punch HTML Fragment Content Parser
+# Punch SVG Fragment Content Parser
 
-A custom [Punch](http://laktek.github.com/punch) content parser to passthrough HTML fragments for page content.
+A custom [Punch](http://laktek.github.com/punch) content parser to passthrough SVG fragments for page content.
 
 ## How to Use 
 
 * Install the package:
 
-	`npm install punch-html-fragment-content-parser`
+	`npm install punch-svg-fragment-content-parser`
 
 * Open your Punch project's configurations (`config.json`) and add the following:
 
 		"plugins": {
         	"parsers": {
-            	".html": "punch-html-fragment-content-parser"
+            	".svg": "punch-svg-fragment-content-parser"
         	}
         }
 
 
 * Much like you would create [extended content](https://github.com/laktek/punch/wiki/Contents#extended-contents)
-fragments in markdown, create them in HTML with the extension .html. The contents of the .html file will be included
+fragments in markdown, create them in SVG with the extension .svg. The contents of the .svg file will be included
 unparsed.

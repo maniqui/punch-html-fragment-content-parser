@@ -1,28 +1,24 @@
 {
-  "name": "punch-html-fragment-content-parser",
-  "title": "Punch HTML Fragment Content Parser",
-  "description": "A special parser for passthrough HTML fragment contentss with Punch.",
-  "version": "0.5.1",
-  "homepage": "https://github.com/sandymac/punch-html-fragment-content-parser",
-  "author": {
-    "name": "Sandy McArthur",
-    "email": "Sandy@McArthur.org",
-    "url": "http://Sandy.McArthur.org"
-  },
+  "name": "punch-svg-fragment-content-parser",
+  "title": "Punch SVG Fragment Content Parser",
+  "description": "A special parser for passthrough SVG fragment contents with Punch.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/maniqui/punch-svg-fragment-content-parser",
+  "author": "Julián Landerreche <npm@julianlanderreche.com.ar> (http://julianlanderreche.com.ar)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sandymac/punch-html-fragment-content-parser.git"
+    "url": "git://github.com/maniqui/punch-svg-fragment-content-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/sandymac/punch-html-fragment-content-parser/issues"
+    "url": "https://github.com/maniqui/punch-svg-fragment-content-parser/issues"
   },
   "licenses": [
     {
       "type": "WTFPL",
-      "url": "https://github.com/sandymac/punch-html-fragment-content-parser/blob/master/LICENSE-WTFPL"
+      "url": "https://github.com/maniqui/punch-svg-fragment-content-parser/blob/master/LICENSE-WTFPL"
     }
   ],
-  "main": "lib/html_fragment_content_parser",
+  "main": "lib/svg_fragment_content_parser",
   "devDependencies": {
     "jasmine-node": ">= 1.0.26",
     "jshint": ">= 0.9.1"
@@ -36,11 +32,12 @@
   },
   "keywords": [
     "punch",
-    "html-fragment",
-    "html",
+    "svg-fragment",
+    "svg",
     "fragment",
     "content-parser",
     "content",
     "parser"
-  ]
+  ],
+  "license": "nc-GPL"
 }
